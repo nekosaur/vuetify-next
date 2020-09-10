@@ -1,0 +1,11 @@
+{
+  "name": "esm",
+  "private": true,
+  "scripts": {
+    "serve": "http-server --cors -c-1"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "vuetify": "link:../../"
+  }
+}

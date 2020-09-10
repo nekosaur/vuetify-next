@@ -1,0 +1,26 @@
+<link type="text/css" href="http://localhost:8080/node_modules/vuetify/dist/vuetify.css" rel="stylesheet">
+
+<div id="demo">
+  <v-alert type="success">this is an alert</v-alert>
+  <v-btn>buttonnnn</v-btn>
+</div>
+
+<script type="module">
+  import { createApp } from 'https://unpkg.com/vue@3.0.0-rc.10/dist/vue.esm-browser.js'
+  import { createVuetify } from 'http://localhost:8080/node_modules/vuetify/dist/vuetify.esm.js'
+
+  const app = createApp({})
+
+  const vuetify = createVuetify()
+
+  app.use(vuetify)
+
+  app.mount('#demo')
+</script>
+
+<style>
+  #demo {
+    width: 100%;
+    height: 100%;
+  }
+</style>
